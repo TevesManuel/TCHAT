@@ -1,0 +1,36 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe compilar archivo activo",
+            "command": "D:\\MSYS2\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "D:\\Programacion\\C\\terminal_chat_tcpip\\src\\lib\\str.c",
+                "D:/Programacion/C/terminal_chat_tcpip/src/lib/chat_node.c",
+                "D:/Programacion/C/terminal_chat_tcpip/src/lib/UI_params.c",
+                "D:/Programacion/C/terminal_chat_tcpip/src/lib/socket.c",
+                "${file}",
+                "-ID:/Programacion/C/terminal_chat_tcpip/src/include/",
+                "-luv",
+                "-lpdcurses",
+                "-lwinmm",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+}

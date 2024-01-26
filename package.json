@@ -1,0 +1,11 @@
+{
+  "name": "terminal_chat_tcpip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/Server/app.js",
+  "scripts": {
+    "start": "node ./src/Server/app.js"
+  },
+  "author": "Manuel Teves",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "chat_node.h": "c",
+        "libwebsockets.h": "c"
+    }
+}
